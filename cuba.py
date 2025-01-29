@@ -8,6 +8,13 @@ import time
 t = turtle.Turtle()
 t.speed(10) 
 
+t.up()
+t.back(160)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.down()
+
 t.fillcolor("blue")
 t.begin_fill()
 for i in range(2):
@@ -85,5 +92,7 @@ for _ in range(5):
   t.forward(14)
   t.right(70)
 t.end_fill()
+
+t.hideturtle()
 
 turtle.mainloop()
